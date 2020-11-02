@@ -11,7 +11,7 @@ namespace Linq
     {
         static void Main(string[] args)
         {
-            /*string sourcePath = @"in.txt";
+            string sourcePath = @"in.txt";
             List<Employee> list = new List<Employee>();
             Console.WriteLine("Digite Numeros de funcionario para cadastrar");
             int n = int.Parse(Console.ReadLine());
@@ -65,25 +65,7 @@ namespace Linq
                 Console.WriteLine(employee.Email);
             }
             Console.WriteLine("A soma dos saraios é: " + result.ToString("F2",
-                CultureInfo.InvariantCulture));*/
-
-            int[,] matriz = new int[3, 3];
-
-            matriz[0, 0] = 5;
-            matriz[0, 1] = -3;
-            matriz[0, 2] = 10;
-            matriz[1, 0] = 15;
-            matriz[1, 1] = 8;
-            matriz[1, 2] = 2;
-            matriz[2, 0] = 7;
-            matriz[2, 1] = 9;
-            matriz[2, 2] = -4;
-
-            for (int i = 2; i < matriz.Length; i--)
-            {
-                Console.WriteLine(matriz[i,i]);
-            }
-
+                CultureInfo.InvariantCulture));
 
         }
     }
